@@ -1,0 +1,128 @@
+<!-- HTML (ESTRUCTURA Y CONTENIDO)
+===================================== -->
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hardware</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/dashboard.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="navbar sticky-top flex-md-nowrap p-0 shadow text-center fondoHeader">
+    <a class="p-3 navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6 text-white" href="https://virtualubi.com/">
+      <h5>U.B.I.</h5>
+    </a>
+    <ul class="navbar-nav flex-row d-md-none">
+      <li class="nav-item text-nowrap">
+        <button class="nav-link px-3 text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu"
+          aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <h2 class="px-3">&#9776;</h2>
+        </button>
+      </li>
+    </ul>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- NAV -->
+      <div class="sidebar border border-right col-md-3 col-lg-2 p-0 bg-body-tertiary">
+        <div class="offcanvas-md offcanvas-end bg-body-tertiary" tabindex="-1" id="sidebarMenu"
+          aria-labelledby="sidebarMenuLabel">
+
+          <!-- LOGO -->
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebarMenuLabel">
+              U.B.I.
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#sidebarMenu"
+              aria-label="Close"></button>
+          </div>
+
+          <!-- OPCINOES -->
+          <div class="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
+            <h6
+              class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-body-secondary text-uppercase">
+              <span>INICIO</span>
+            </h6>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="pages/home.html" target="contenido">
+                  &#128187; Home
+                </a>
+              </li>
+            </ul>
+            <h6
+              class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-body-secondary text-uppercase">
+              <span>TEMAS</span>
+            </h6>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="pages/page01.html" target="contenido">
+                  &#128203; Introducción
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/page02.html" target="contenido">
+                  &#128203; Hardware
+                </a>
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/page03.html" target="contenido">
+                  &#128203; Software
+                </a>
+                 <!-- APARTADO PEUQEÑO -->
+                  <a class="nav-link" href="pages/page06.html" target="contenido">
+                  &#128203; Marcas
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/page04.html" target="contenido">
+                  &#128203; Introducción a Redes
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/page05.html" target="contenido">
+                  &#128203; Información
+                </a>
+              </li>
+            </ul>
+            <div class="p-3" style="text-align: center;">
+              <img src="img/logo.png" alt="logo" width="100%" height="auto">
+              <small class="text-center"><i>Development by <br> AroSystems</i></small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MAIN -->
+      <div class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+        <main class="card shadow p-3 mt-3" style="min-height: 85vh;">
+          <!-- CONTENIDO -->
+          <section>
+            <iframe name="contenido" src="pages/home.html"
+              style="width:100%; min-height:73vh; border:none; overflow:hidden;">
+            </iframe>
+          </section>
+          <hr>
+          <footer class="text-center">
+            <small>AroSystems &copy; 2026</small>
+          </footer>
+        </main>
+      </div>
+    </div>
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+
+</body>
+</html>

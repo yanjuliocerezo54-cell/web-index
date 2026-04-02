@@ -1,0 +1,12 @@
+/* CSS (PRESENTACIÓN) 
+============================ */
+
+.fondoHeader {
+  background: #005050;
+  /* background: rgb(0, 50, 50, .8); */
+  color: #dcdcdc;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+}

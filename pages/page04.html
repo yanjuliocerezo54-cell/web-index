@@ -1,0 +1,172 @@
+<!-- HTML (PAGE 03)
+===================================== -->
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>REDES Y SOFTWARE</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-black text-light">
+
+  <!-- ================= REDES INFORMÁTICAS ================= -->
+
+  <header class="text-center py-5 border-bottom border-info border-4 shadow-lg">
+    <div class="container">
+      <h1 class="display-2 fw-bold text-info">REDES INFORMÁTICAS</h1>
+      <p class="lead fs-3 text-light">Fundamentos, Modelos, Protocolos y Estructura</p>
+    </div>
+  </header>
+
+  <div class="container my-5">
+
+    <!-- 1 INTRODUCCIÓN -->
+    <div class="p-4 mb-5 bg-dark rounded-4 border border-info border-3 shadow">
+      <h3 class="fw-bold text-info">1. INTRODUCCIÓN</h3>
+      <p>
+        En la actualidad, las redes informáticas constituyen uno de los pilares fundamentales de la tecnología moderna. 
+        Gracias a ellas es posible la comunicación instantánea entre personas, empresas e instituciones en cualquier parte del mundo. 
+        Las redes permiten compartir información, recursos y servicios de manera rápida, segura y eficiente.
+      </p>
+      <p>
+        Desde el uso del internet en nuestros hogares hasta los grandes centros de datos empresariales, 
+        todo funciona mediante sistemas de interconexión organizados bajo modelos, protocolos y estructuras específicas.
+      </p>
+      <p>
+        El estudio de las redes es esencial en la Ingeniería de Sistemas, ya que permiten comprender cómo viaja la información, 
+        cómo se protege y cómo se administra dentro de una infraestructura tecnológica.
+      </p>
+    </div>
+
+    <!-- 2 ¿QUÉ ES UNA RED? -->
+    <div class="p-4 mb-5 bg-dark rounded-4 border border-primary border-3 shadow">
+      <h3 class="fw-bold text-primary">2. ¿QUÉ ES UNA RED INFORMÁTICA?</h3>
+      <p>
+        Una red informática es el conjunto de dispositivos interconectados entre sí que comparten información 
+        mediante medios físicos o inalámbricos utilizando reglas de comunicación llamadas protocolos.
+      </p>
+      <p>
+        El objetivo principal de una red es compartir datos, compartir recursos (impresoras, archivos, internet), 
+        facilitar la comunicación y optimizar procesos empresariales.
+      </p>
+    </div>
+
+    <!-- 3 MODELOS -->
+    <div class="p-4 mb-5 bg-dark rounded-4 border border-success border-3 shadow">
+      <h3 class="fw-bold text-success">3. MODELOS DE RED: OSI Y TCP/IP</h3>
+
+      <h5 class="text-info mt-3">MODELO OSI (7 CAPAS)</h5>
+      <p>
+        El modelo OSI divide la comunicación en siete capas,el modelo OSI organiza el proceso de transmisión de datos en siete capas, permitiendo comprender de manera estructurada cada etapa de la comunicación, desde la transmisión física de la información hasta la interacción con el usuario:
+      </p>
+      <ul>
+        <li>Física: Transmite bits a través de cables o señales.</li>
+        <li>Enlace de Datos: Controla errores y utiliza direcciones MAC.</li>
+        <li>Red: Maneja direcciones IP y enrutamiento.</li>
+        <li>Transporte: Controla la entrega de datos (TCP/UDP).</li>
+        <li>Sesión: Establece y mantiene la conexión.</li>
+        <li>Presentación: Traduce y cifra la información.</li>
+        <li>Aplicación: Interactúa directamente con el usuario.</li>
+        <br>
+        <p>Este modelo es teórico y sirve como referencia para estudiar redes</p>
+      </ul>
+
+      <h5 class="text-warning mt-4">MODELO TCP/IP (4 CAPAS)</h5>
+      <p>
+       Por su parte, el modelo TCP/IP simplifica este proceso en cuatro capas y constituye la base del funcionamiento de Internet, definiendo cómo los datos se envían, direccionan y reciben entre computadoras.:
+      </p>
+      <ul>
+        <li>Acceso a la Red</li>
+        <li>Internet</li>
+        <li>Transporte</li>
+        <li>Aplicación</li>
+        <br>
+        <p>Es más simple que el OSI y combina varias capas en una sola.</p>
+      </ul>
+    </div>
+
+    <!-- 4 PROTOCOLOS -->
+    <div class="p-4 mb-5 bg-dark rounded-4 border border-warning border-3 shadow">
+      <h3 class="fw-bold text-warning">4. PROTOCOLOS DE RED</h3>
+      <p>
+        Es un conjunto de reglas, normas y procedimientos correctos que permiten que dos o más dispositivos se comuniquen entre sí dentro de una red.
+      </p>
+      <ul>
+        <li>IP → Identifica dispositivos.</li>
+        <li>TCP → Garantiza entrega confiable.</li>
+        <li>UDP → Más rápido pero sin confirmación.</li>
+        <li>HTTP / HTTPS → Navegación web.</li>
+        <li>FTP → Transferencia de archivos.</li>
+        <li>DNS → Traduce nombres a direcciones IP.</li>
+        <li>SMTP, POP3, IMAP → Correo electrónico.</li>
+        <br> 
+        <p>Sin protocolos, la comunicación sería imposible</p>
+      </ul>
+    </div>
+
+    <!-- 5 TOPOLOGÍAS -->
+    <div class="p-4 mb-5 bg-dark rounded-4 border border-danger border-3 shadow">
+      <h3 class="fw-bold text-danger">5. TOPOLOGÍAS DE RED</h3>
+      <p>Las topologías de red son la forma o estructura en que están organizados y conectados los dispositivos dentro de una red informática.</p>
+      <ul>
+        <li>Topología en Estrella: Todos conectados a un switch central.</li>
+        <li>Topología en Bus: Todos comparten un cable principal.</li>
+        <li>Topología en Anillo: Conectados en forma circular.</li>
+        <li>Topología en Malla: Conexión múltiple entre dispositivos.</li>
+      </ul>
+    </div>
+
+    <!-- 6 DISPOSITIVOS -->
+    <div class="p-4 mb-5 bg-dark rounded-4 border border-light border-3 shadow">
+      <h3 class="fw-bold text-light">6. DISPOSITIVOS DE RED</h3>
+      <p>Los dispositivos de red son los equipos físicos que permiten la conexión, comunicación y transmisión de datos entre computadoras y otros dispositivos dentro de una red informática.
+    <br>
+    <br>
+        En otras palabras, son los aparatos que hacen posible que la información viaje de un lugar a otro.</p>
+      <ul>
+        <li>Router</li>
+        <li>Switch</li>
+        <li>Módem</li>
+        <li>Access Point</li>
+        <li>Servidor</li>
+      </ul>
+    </div>
+
+    <!-- 7 CABLEADO -->
+    <div class="p-4 mb-5 bg-dark rounded-4 border border-info border-3 shadow">
+      <h3 class="fw-bold text-info">7. CABLEADO UTP</h3>
+      <p>
+        El cable UTP (Unshielded Twisted Pair) es el más utilizado en redes LAN. 
+        Contiene 8 hilos trenzados en pares que reducen interferencias, es económico, flexible 
+        y soporta altas velocidades.
+      </p>
+      <ul>
+        <li>Categorías: Cat5e, Cat6, Cat6a.</li>
+        <li>Estándares: T568A y T568B.</li>
+        <li>Tipos: Cable directo y cable cruzado.</li>
+      </ul>
+    </div>
+
+    <!-- 8 SOFTWARE Y SIMULADORES -->
+    <div class="p-4 mb-5 bg-dark rounded-4 border border-success border-3 shadow">
+      <h3 class="fw-bold text-success">8. SOFTWARE Y SIMULADORES</h3>
+      <p>
+        En redes no solo se trabaja con hardware, también con software especializado para configurar, 
+        analizar y simular infraestructuras de red.
+      </p>
+      <ul>
+        <li>Sistemas Operativos de Red: Windows Server, Linux Server.</li>
+        <li>Simuladores: Cisco Packet Tracer, GNS3.</li>
+        <li>Analizadores: Wireshark.</li>
+      </ul>
+    </div>
+
+  </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
